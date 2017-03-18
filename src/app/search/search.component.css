@@ -1,0 +1,35 @@
+#container {
+  width: 50vw;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+.inputs {
+  display: flex;
+}
+
+.inputs input{
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px 15px;
+  flex-basis: 30%;
+  margin-right: 10px;
+}
+
+.user {
+  display: flex;
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.user h4 {margin-bottom: 10px;}
+
+.user .avatar {
+  background-size: cover;
+  width: 60px;
+  height: 60px;
+  background-color: #ccc;
+  margin-right: 10px;
+}

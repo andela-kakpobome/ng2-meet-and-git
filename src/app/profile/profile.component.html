@@ -1,0 +1,8 @@
+<div id="container">
+  <div class="user">
+    <div class="avatar" [ngStyle]="{
+      'background-image': 'url('+activeUser.avatar_url+')'
+    }"></div>
+    <h4 class="username">@ {{ activeUser.login }}</h4>
+  </div>
+</div>

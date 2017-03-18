@@ -1,0 +1,19 @@
+#container {
+  width: 50vw;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+.user {
+  display: flex;
+  width: 100%;
+  border-bottom: 1px solid #ddd;
+}
+
+.user .avatar {
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+}
+
+.username {color: tomato; font-weight: bold;}

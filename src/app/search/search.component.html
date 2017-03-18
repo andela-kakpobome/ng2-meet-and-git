@@ -1,0 +1,18 @@
+<div id="container">
+  <div class="inputs">
+    <input type="text" [(ngModel)]="language" placeholder="language">
+    <input type="text" [(ngModel)]="location" placeholder="location">
+    <button (click)="search()">Search</button>
+  </div>
+  <div class="users">
+    <div class="user" *ngFor="let user of users">
+      <div class="avatar" [ngStyle]="{
+        'background-image': 'url('+user.avatar_url+')'
+      }"></div>
+      <div class="details">
+        <h4>@{{ user.login }}</h4>
+        <button (click)="showProfile(user)">View Profile</button>
+      </div>
+    </div>
+  </div>
+</div>
