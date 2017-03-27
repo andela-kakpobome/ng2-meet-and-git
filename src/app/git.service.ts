@@ -8,6 +8,7 @@ import { environment } from '../environments/environment';
 export class GitService {
 
   private activeUser;
+
   constructor(private http: Http) { }
 
   /**
